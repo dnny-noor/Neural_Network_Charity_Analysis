@@ -3,7 +3,7 @@
 ## Overview
 Create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. With the given data set, machine learning and neural networks will be applied using the Tensorflow library.
 
-Results:
+## Results
 
 -*What variable(s) are considered the target(s) for your model?*  
 The IS_SUCCESSFUL will be the target to capture the binary value.  
@@ -24,7 +24,7 @@ The target model performance was set at 75% accuracy which was not met. With mor
 First step taken was chaning the activation functions in each step and compare their accuracies. Second was to adjust the number of neurons in our initial setup. Once determined a good starting point, adding layers with different amount of neurons through trial and error to achieve the performace goal.  
 
 
-Summary:
+## Summary
 The initial model followed the rule of thumb of adding 2 times the number of inputs as the amount of neurons. This gave a shape of 80 and 30 for the hidden layers. This set the inital accuracy of 72.8%.  
 ![Resources/acc_original.PNG](Resources/acc_original.PNG)  
 The next model was setup with two hidden layers but with less neurons of 12 and 6. This gave an accuracy of 73.1%. The highest score achieved in the attempts done.  
